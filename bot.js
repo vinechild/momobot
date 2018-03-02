@@ -55,6 +55,10 @@ client.on("message", (message) => {
   } else
   if (message.content.startsWith(prefix + "hug")) {
     message.channel.send("https://media1.tenor.com/images/506aa95bbb0a71351bcaa753eaa2a45c/tenor.gif");
+  } else
+  if (message.content.toUppercase === "SAHIL") {
+      message.channel.send("Don't do drums, kids.");
+// testing also ty shini!1!!
   }
 });
 
