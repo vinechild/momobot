@@ -7,8 +7,7 @@ client.on('ready', () => {
 // Set the prefix
 const prefix = "m!";
 client.on("message", (message) => {
-  // Exit and stop if it's not there
-
+    
   if (message.content.startsWith(prefix + "ping")) {
     message.channel.send("pong!");
   } else
@@ -20,7 +19,12 @@ client.on("message", (message) => {
   } else
   if (message.content === "i love momo") {
       message.channel.send("... W-What? I-I mean I appreciate it, but...");
-  }
+  } else
+  if (message.content === "you know, like, nya?") {
+      message.channel.send("... N-Nya....");
+  } else
+  if (message.content === "sahil" or "Sahil") {
+      message.channel.send("Don't do drums, kids.");
     
 });
 
