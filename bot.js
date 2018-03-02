@@ -40,6 +40,18 @@ client.on("message", (message) => {
   } else
   if (message.content.startsWith(prefix + "stone")) {
     message.channel.send("I will bind you to a chair, light your hair on fire, bind sixteen pencils together with a rubber band and put it against your chest to cause small wounds on you, and then I will proceed to chop your fingers off and force you to choke them down while I use a chainsaw to rip your asshole a new one.");
+  } else
+  if (message.content.startsWith(prefix + "boobs")) {
+    message.channel.send("Heh. Nice.");
+  } else
+  if (message.content.startsWith(prefix + "harper")) {
+    message.channel.send("I will live record wolves eating your demon-infested body to your entire family and laugh. I'll make sure to save an arm or a leg so I can stuff it and mount it on my wall as a trophy. Your eyes will be stored in a jar for safe keeping, by the way. You know, to keep the demons from escaping!");
+  } else
+  if (message.content.startsWith(prefix + "nico")) {
+    message.channel.send("Nico Nico Nii~!");
+  } else
+  if (message.content.startsWith(prefix + "klance")) {
+    message.channel.send("Are you actually fucking retarded?");
   }
 });
 
