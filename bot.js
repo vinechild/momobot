@@ -4,15 +4,18 @@ const client = new Discord.Client();
 client.on('ready', () => {
     console.log('I am ready!');
 });
+// Set the prefix
+const prefix = "m!";
+client.on("message", (message) => {
+  // Exit and stop if it's not there
+  if (!message.content.startsWith(prefix)) return;
 
-client.on('message', message => {
-    if (message.content === 'm!ping') {
-    	message.channel.send("pong!");
-  	} else
-        
-        if (message.content === 'm!foo') {
-            message.channel.send("bar!");
-        }
+  if (message.content.startsWith(prefix + "ping")) {
+    message.channel.send("pong!");
+  } else
+  if (message.content.startsWith(prefix + "foo")) {
+    message.channel.send("bar!");
+  }
 });
 
 // THIS  MUST  BE  THIS  WAY
