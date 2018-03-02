@@ -136,9 +136,6 @@ client.on("message", (message) => {
   if (message.content.toLowerCase() === "can i have your picture? i want to show santa my wish list.") {
       message.channel.send("Santa isn't real. I'll give you my autograph, though~");
   } else
-  if (message.content.toLowerCase() === "can I see your tan lines?") {
-      message.channel.send("... I'm a gamer. Do you think I *go outside* or something? Why would I have tan lines?");
-  } else
   if (message.content.toLowerCase() === "do you have a sunburn, or are you always this hot?") {
       message.channel.send(".......... S-Shut up, you heathen.");
   } else
@@ -150,6 +147,10 @@ client.on("message", (message) => {
   } else
   if (message.content.toLowerCase() === "i'm like ezio. i'm great from behind and above.") {
       message.channel.send(".... Hahahaha okay that one got me, but you're trying *way* too hard to meet my non-existant standards.");
+  } else
+  if (message.content.toLowerCase() === "do you want to be my final fantasy?") {
+      message.channel.send("Sure! Exactly like you said- fantasy! In your dreams. Nerd.");
+  } 
       //FLIRTS END HERE
   }
 });
