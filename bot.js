@@ -110,28 +110,28 @@ client.on("message", (message) => {
       
       //FLIRTS START HERE
       
-  if (message.content.toLowerCase() === "Are you Google?") {
+  if (message.content.toLowerCase() === "are you google?") {
       message.channel.send("Don't do it. Don't you fucking dare say it.");
   } else
-  if (message.content.toLowerCase() === "Because you're everything I'm searching for.") {
+  if (message.content.toLowerCase() === "because you're everything I'm searching for.") {
       message.channel.send("I love you and I hate you all at the same time. Please go pat yourself on the back *and* throw yourself off a cliff.");
   } else
-  if (message.content.toLowerCase() === "There's a switch on my forehead") {
+  if (message.content.toLowerCase() === "there's a switch on my forehead") {
       message.channel.send("Is there now?");
   } else
-  if (message.content.toLowerCase().toLowerCase() === "Because every time I see you, I immediately get turned on.") {
+  if (message.content.toLowerCase().toLowerCase() === "because every time i see you, i immediately get turned on.") {
       message.channel.send("First of all, I question what makes you attracted to me to let this flirt come out of your mouth. Second of all, why? Why are you like this?");
   } else
   if (message.content.toLowerCase() === "Do you have a map?") {
       message.channel.send("No.");
   } else
-  if (message.content.toLowerCase() === "Because I'm lost in your eyes.") {
+  if (message.content.toLowerCase() === "because i'm lost in your eyes.") {
       message.channel.send("I'll direct myself to the next bathroom to vomit, then.");
   } else
-  if (message.content.toLowerCase() === "Did the sun come out, or was that just your smile?") {
+  if (message.content.toLowerCase() === "did the sun come out, or was that just your smile?") {
       message.channel.send("F-Fuck off...");
   } else
-  if (message.content.toLowerCase() === "Can I have your picture? I want to show Santa my wish list.") {
+  if (message.content.toLowerCase() === "can i have your picture? i want to show santa my wish list.") {
       message.channel.send("Santa isn't real. I'll give you my autograph, though~");
       //FLIRTS END HERE
   }
