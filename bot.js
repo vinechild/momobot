@@ -19,20 +19,20 @@ client.on("message", (message) => {
   if (message.content.toLowerCase().startsWith(prefix + "cute")) {
     message.channel.send("Something I'm not.");
   } else
+  if (message.content.toLowerCase().startsWith(prefix + "cats")) {
+    message.channel.send("The best animal on planet Earth. Objectively speaking.");
+  } else
+  if (message.content.toLowerCase().startsWith(prefix + "traps")) {
+    message.channel.send("Are fucking gay.");
+  } else
+  if (message.content.toLowerCase().startsWith(prefix + "tomo")) {
+    message.channel.send("Some gayboy.");
+  } else
   if (message.content.toLowerCase() === "i love momo") {
       message.channel.send("...W-What? I-I mean I appreciate it, but...");
   } else
   if (message.content.toLowerCase() === "you know, like, nya?") {
       message.channel.send("...N-Nya....");
-  } else
-  if (message.content.toLowerCase() === "traps") {
-      message.channel.send("Are fucking gay.");
-  } else
-  if (message.content.toLowerCase() === "cats") {
-      message.channel.send("The single best animal on planet earth.");
-  } else
-  if (message.content.toLowerCase() === "tomo") {
-      message.channel.send("Some gayboy.");
   } else
   if (message.content.toLowerCase() === "i want to kiss momo") {
       message.channel.send("https://www.youtube.com/watch?v=ijV8VmITQss");
