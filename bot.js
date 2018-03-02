@@ -122,7 +122,7 @@ client.on("message", (message) => {
   if (message.content.toLowerCase().toLowerCase() === "because every time i see you, i immediately get turned on.") {
       message.channel.send("First of all, I question what makes you attracted to me to let this flirt come out of your mouth. Second of all, why? Why are you like this?");
   } else
-  if (message.content.toLowerCase() === "Do you have a map?") {
+  if (message.content.toLowerCase() === "do you have a map?") {
       message.channel.send("No.");
   } else
   if (message.content.toLowerCase() === "because i'm lost in your eyes.") {
