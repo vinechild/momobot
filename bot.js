@@ -87,10 +87,10 @@ client.on("message", (message) => {
     message.channel.send("I'll ignore the meme for this... Love? It's... A complex thing that I don't understand. I don't understand friendship either, so I'm not one to be asked this question... I wish I was qualified enough to answer. I wish I knew what love felt like. The thought of loving somebody, platonically or romantically... It makes me shiver. It makes me wish it was possible for me. I can only hope it's enjoyable for the rest of the world, enjoying their ability to care *so much* for others like that.");
   } else
   if (message.content === "shrek is love") {
-      message.channel.send("shrek is life");
+      message.channel.send("Shrek is life.");
   } else
   if (message.content === "Shrek is love") {
-      message.channel.send("Shrek is life");
+      message.channel.send("Shrek is life.");
   } else
   if (message.content === "Shrek is love. Shrek is life.") {
       message.channel.send("Damn right it is.");
