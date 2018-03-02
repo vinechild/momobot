@@ -1,1 +1,1 @@
-worker: node momobot.js
+worker: node bot.js
