@@ -56,9 +56,29 @@ client.on("message", (message) => {
   if (message.content.startsWith(prefix + "hug")) {
     message.channel.send("https://media1.tenor.com/images/506aa95bbb0a71351bcaa753eaa2a45c/tenor.gif");
   } else
-  if (message.content.toUppercase === "SAHIL") {
+  if (message.content.startsWith(prefix + "sahil")) {
       message.channel.send("Don't do drums, kids.");
-// testing also ty shini!1!!
+  } else
+  if (message.content.startsWith(prefix + "mira")) {
+      message.channel.send("A demon, simple as that. A kind one, but one who simply knows too much. Please never contort like a fucking beast from hell ever again.");
+  } else
+  if (message.content.startsWith(prefix + "smooch")) {
+    message.channel.send("A-Ah... Why would you do that? T-that's..... Oh my god... A-ahahaha.... I'm not... s-sure how to respond to that.... A-aaah.... I need to g-go flush my face with w-water...");
+  } else
+  if (message.content === "momo, dab for me") {
+      message.channel.send("No. Please go die.");
+  } else
+  if (message.content === "momo, do you like pussy?") {
+      message.channel.send("For sure! The feeling of a cat's fur on my hands and on my cheeks, the gentle purring in my ear, the rough but sweet licks on my face and hands as they knead my bossom, thighs and abdomen to get comfortable, as to create a blanket of warmth over me... You expected me to say something about vag, didn't you?");
+  } else
+  if (message.content === "momo, are you gay?") {
+      message.channel.send("None of your business. Piss off. Ask again when you're older.");
+  } else
+  if (message.content === "i'm older, momo!") {
+      message.channel.send("Are you seriously *that* persistant to know my sexuality?");
+  } else
+  if (message.content.startsWith(prefix + "pizzapasta")) {
+    message.channel.send("Pizza! Pasta! Nobody fucking cares~!");
   }
 });
 
