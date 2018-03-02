@@ -23,8 +23,9 @@ client.on("message", (message) => {
   if (message.content === "you know, like, nya?") {
       message.channel.send("...N-Nya....");
   } else
-  if (message.content === "Sahil") {
+  if(message.content.toUppercase() === "SAHIL")
       message.channel.send("Don't do drums, kids.");
+// thank u shini!!!!
   } else
   if (message.content === "traps") {
       message.channel.send("Are fucking gay.");
@@ -52,6 +53,12 @@ client.on("message", (message) => {
   } else
   if (message.content.startsWith(prefix + "klance")) {
     message.channel.send("Are you actually fucking retarded?");
+  } else
+  if (message.content.startsWith(prefix + "thighs")) {
+    message.channel.send("https://pa1.narvii.com/6183/32333df4d2047cf88923eadcc91ae425a0e905c0_hq.gif");
+  } else
+  if (message.content.startsWith(prefix + "hug")) {
+    message.channel.send("https://media1.tenor.com/images/506aa95bbb0a71351bcaa753eaa2a45c/tenor.gif");
   }
 });
 
