@@ -25,8 +25,7 @@ client.on("message", (message) => {
   } else
   if (message.content === "sahil" or "Sahil") {
       message.channel.send("Don't do drums, kids.");
-  }
-      
+  }   
 });
 
 // THIS  MUST  BE  THIS  WAY
