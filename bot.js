@@ -150,7 +150,6 @@ client.on("message", (message) => {
   } else
   if (message.content.toLowerCase() === "do you want to be my final fantasy?") {
       message.channel.send("Sure! Exactly like you said- fantasy! In your dreams. Nerd.");
-  } 
       //FLIRTS END HERE
   }
 });
