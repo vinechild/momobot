@@ -23,7 +23,7 @@ client.on("message", (message) => {
   if (message.content === "you know, like, nya?") {
       message.channel.send("... N-Nya....");
   } else
-  if (message.content === "sahil" or "Sahil") {
+  if (message.content === "sahil") {
       message.channel.send("Don't do drums, kids.");
     
 });
