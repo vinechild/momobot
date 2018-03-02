@@ -23,10 +23,6 @@ client.on("message", (message) => {
   if (message.content === "you know, like, nya?") {
       message.channel.send("...N-Nya....");
   } else
-  if (message.content.toUppercase() === "SAHIL") {
-      message.channel.send("Don't do drums, kids.");
-// thank u shini!!!!
-  } else
   if (message.content === "traps") {
       message.channel.send("Are fucking gay.");
   } else
