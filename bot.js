@@ -107,6 +107,9 @@ client.on("message", (message) => {
   if (message.content.startsWith(prefix + "huian")) {
       message.channel.send("Surprisingly, a girl shorter than me. Not that that makes her any less of a good nurse. She's the ultimate for a reason, after all, right?");
   } else
+      
+      //FLIRTS START HERE
+      
   if (message.content === "Are you Google?") {
       message.channel.send("Don't do it. Don't you fucking dare say it.");
   } else
@@ -124,6 +127,13 @@ client.on("message", (message) => {
   } else
   if (message.content === "Because I'm lost in your eyes.") {
       message.channel.send("I'll direct myself to the next bathroom to vomit, then.");
+  } else
+  if (message.content === "Did the sun come out, or was that just your smile?") {
+      message.channel.send("F-Fuck off...");
+  } else
+  if (message.content === "Can I have your picture? I want to show Santa my wish list.") {
+      message.channel.send("Santa isn't real. I'll give you my autograph, though~");
+      //FLIRTS END HERE
   }
 });
 
