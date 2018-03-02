@@ -103,6 +103,15 @@ client.on("message", (message) => {
   } else
   if (message.content === "can i hold your hand, momo?") {
       message.channel.send("....J-Just don't tell anybody I'm letting you be this close to me, a-alright? Jeez... I don't get why y-you want to hold hands with me, anyways....");
+  } else
+  if (message.content.startsWith(prefix + "huian")) {
+      message.channel.send("Surprisingly, a girl shorter than me. Not that that makes her any less of a good nurse. She's the ultimate for a reason, after all, right?");
+  } else
+  if (message.content === "Are you Google?") {
+      message.channel.send("Don't do it. Don't you fucking dare say it.");
+  } else
+  if (message.content === "Because you're everything I'm searching for.") {
+      message.channel.send("I love you and I hate you all at the same time. Please go pat yourself on the back *and* throw yourself off a cliff.");
   }
 });
 
