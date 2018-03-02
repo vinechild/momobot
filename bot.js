@@ -79,6 +79,30 @@ client.on("message", (message) => {
   } else
   if (message.content.startsWith(prefix + "pizzapasta")) {
     message.channel.send("Pizza! Pasta! Nobody fucking cares~!");
+  } else
+  if (message.content.startsWith(prefix + "life")) {
+    message.channel.send("Do you remember when life used to be so... kind? Getting high used to mean being pushed as high as you could on the swing compared to your classmates during recess. Loving somebody used to mean we cared about each other, not that we were sexually attracted to somebody. Holding hands was the sex of childhood. We'd worry over the opposite gender giving us cooties... We'd love each other, and we wouldn't hate anybody. We'd love ourselves... It's sad everything's so... different, isn't it?... I wish it could be so simple again. Maybe we could all be happy.");
+  } else
+  if (message.content.startsWith(prefix + "whatislove")) {
+    message.channel.send("I'll ignore the meme for this... Love? It's... A complex thing that I don't understand. I don't understand friendship either, so I'm not one to be asked this question... I wish I was qualified enough to answer. I wish I knew what love felt like. The thought of loving somebody, platonically or romantically... It makes me shiver. It makes me wish it was possible for me. I can only hope it's enjoyable for the rest of the world, enjoying their ability to care *so much* for others like that.");
+  } else
+  if (message.content === "shrek is love") {
+      message.channel.send("shrek is life");
+  } else
+  if (message.content === "Shrek is love") {
+      message.channel.send("Shrek is life");
+  } else
+  if (message.content === "Shrek is love. Shrek is life.") {
+      message.channel.send("Damn right it is.");
+  } else
+  if (message.content === "shrek is love. shrek is life.") {
+      message.channel.send("Damn right it is.");
+  } else
+  if (message.content === "do you love me, momo?") {
+      message.channel.send("Depends on who you are. I love a small amount of people... So, maybe I do. Maybe I don't. Now, if I don't know you... Why don't you go roll a d20 to see if I do, mm?");
+  } else
+  if (message.content === "can i hold your hand, momo?") {
+      message.channel.send("....J-Just don't tell anybody I'm letting you be this close to me, a-alright? Jeez... I don't get why y-you want to hold hands with me, anyways....");
   }
 });
 
