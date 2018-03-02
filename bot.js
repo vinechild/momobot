@@ -17,7 +17,7 @@ client.on("message", (message) => {
   if (message.content.startsWith(prefix + "cute")) {
     message.channel.send("Something I'm not.");
   } else
-  if (message.content === "i love momo") {
+  if (message.content.toLowerCase() === "i love momo") {
       message.channel.send("...W-What? I-I mean I appreciate it, but...");
   } else
   if (message.content === "you know, like, nya?") {
