@@ -18,16 +18,28 @@ client.on("message", (message) => {
     message.channel.send("Something I'm not.");
   } else
   if (message.content === "i love momo") {
-      message.channel.send("... W-What? I-I mean I appreciate it, but...");
+      message.channel.send("...W-What? I-I mean I appreciate it, but...");
   } else
   if (message.content === "you know, like, nya?") {
-      message.channel.send("... N-Nya....");
+      message.channel.send("...N-Nya....");
   } else
   if (message.content === "Sahil") {
       message.channel.send("Don't do drums, kids.");
   } else
   if (message.content === "traps") {
       message.channel.send("Are fucking gay.");
+  } else
+  if (message.content === "cats") {
+      message.channel.send("The single best animal on planet earth.");
+  } else
+  if (message.content === "tomo") {
+      message.channel.send("Some gayboy.");
+  } else
+  if (message.content === "tomo") {
+      message.channel.send("Some gayboy.");
+  } else
+  if (message.content === "i want to kiss momo") {
+      message.channel.send("https://www.youtube.com/watch?v=ijV8VmITQss");
   }
 });
 
