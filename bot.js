@@ -91,12 +91,6 @@ client.on("message", (message) => {
   if (message.content.toLowerCase() === "shrek is love") {
       message.channel.send("Shrek is life.");
   } else
-  if (message.content.toLowerCase() === "Shrek is love") {
-      message.channel.send("Shrek is life.");
-  } else
-  if (message.content.toLowerCase() === "Shrek is love. Shrek is life.") {
-      message.channel.send("Damn right it is.");
-  } else
   if (message.content.toLowerCase() === "shrek is love. shrek is life.") {
       message.channel.send("Damn right it is.");
   } else
