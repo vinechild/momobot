@@ -14,7 +14,7 @@ client.on("message", (message) => {
   if (message.content.startsWith(prefix + "foo")) {
     message.channel.send("bar!");
   } else
-  if (message.content.startsWith(prefix + "cute")) {
+  if (message.content.toLowerCase().startsWith(prefix + "cute")) {
     message.channel.send("Something I'm not.");
   } else
   if (message.content.toLowerCase() === "i love momo") {
