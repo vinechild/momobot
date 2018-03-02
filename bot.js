@@ -37,6 +37,9 @@ client.on("message", (message) => {
   } else
   if (message.content === "i want to kiss momo") {
       message.channel.send("https://www.youtube.com/watch?v=ijV8VmITQss");
+  } else
+  if (message.content.startsWith(prefix + "stone")) {
+    message.channel.send("I will bind you to a chair, light your hair on fire, bind sixteen pencils together with a rubber band and put it against your chest to cause small wounds on you, and then I will proceed to chop your fingers off and force you to choke them down while I use a chainsaw to rip your asshole a new one.");
   }
 });
 
