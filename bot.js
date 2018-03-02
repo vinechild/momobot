@@ -5,18 +5,11 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-if (message.substring(0, 1) == '!') {
-        var args = message.substring(1).split(' ');
-        var cmd = args[0];
-       
-        args = args.splice(1);
-        switch(cmd) {
-            // !ping
-            case 'ping':
-                bot.sendMessage({
-                    to: channelID,
-                    message: 'Pong!'
-                });
+client.on('message', message => {
+    if (message.content === 'ping') {
+    	message.('pong');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
