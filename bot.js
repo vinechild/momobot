@@ -19,7 +19,7 @@ client.on("message", (message) => {
   if (message.content.startsWith(prefix + "cute")) {
     message.channel.send("Something I'm not.");
   } else
-  if (message.content.startsWith("I love momo" or "i love momo" or "I love Momo" or "i love Momo")) {
+  if (message.content("I love momo" or "i love momo" or "I love Momo" or "i love Momo")) {
       message.channel.send("... W-What? I-I mean I appreciate it, but...");
   }
     
