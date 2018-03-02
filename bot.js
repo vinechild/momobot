@@ -35,9 +35,6 @@ client.on("message", (message) => {
   if (message.content === "tomo") {
       message.channel.send("Some gayboy.");
   } else
-  if (message.content === "tomo") {
-      message.channel.send("Some gayboy.");
-  } else
   if (message.content === "i want to kiss momo") {
       message.channel.send("https://www.youtube.com/watch?v=ijV8VmITQss");
   }
