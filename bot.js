@@ -113,7 +113,7 @@ client.on("message", (message) => {
   if (message.content.toLowerCase() === "are you google?") {
       message.channel.send("Don't do it. Don't you fucking dare say it.");
   } else
-  if (message.content.toLowerCase() === "because you're everything I'm searching for.") {
+  if (message.content.toLowerCase() === "because you're everything i'm searching for.") {
       message.channel.send("I love you and I hate you all at the same time. Please go pat yourself on the back *and* throw yourself off a cliff.");
   } else
   if (message.content.toLowerCase() === "there's a switch on my forehead") {
