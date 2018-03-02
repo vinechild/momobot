@@ -8,6 +8,8 @@ client.on('ready', () => {
 const prefix = "m!";
 client.on("message", (message) => {
     
+    //all my random shit
+    
   if (message.content.toLowerCase().startsWith(prefix + "ping")) {
     message.channel.send("pong!");
   } else
@@ -133,6 +135,21 @@ client.on("message", (message) => {
   } else
   if (message.content.toLowerCase() === "can i have your picture? i want to show santa my wish list.") {
       message.channel.send("Santa isn't real. I'll give you my autograph, though~");
+  } else
+  if (message.content.toLowerCase() === "can I see your tan lines?") {
+      message.channel.send("... I'm a gamer. Do you think I *go outside* or something? Why would I have tan lines?");
+  } else
+  if (message.content.toLowerCase() === "do you have a sunburn, or are you always this hot?") {
+      message.channel.send(".......... S-Shut up, you heathen.");
+  } else
+  if (message.content.toLowerCase() === "i hope there's an ultimate fireman around, because you're smoking hot.") {
+      message.channel.send("W-What the fuck!? What gives *y-you* the right to say that to me? G-God....");
+  } else
+  if (message.content.toLowerCase() === "your lips are sunburnt... here, let me help you") {
+      message.channel.send("OHMYGOD N-NO FUCKING WAY. GET OUT OF H-HERE.");
+  } else
+  if (message.content.toLowerCase() === "i'm like ezio. i'm great from behind and above.") {
+      message.channel.send(".... Hahahaha okay that one got me, but you're trying *way* too hard to meet my non-existant standards.");
       //FLIRTS END HERE
   }
 });
