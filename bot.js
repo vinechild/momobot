@@ -11,10 +11,10 @@ client.on("message", (message) => {
     //all my random shit
     
   if (message.content.toLowerCase().startsWith(prefix + "ping")) {
-    message.channel.send("pong!");
+    message.channel.send("Pong!");
   } else
   if (message.content.toLowerCase().startsWith(prefix + "foo")) {
-    message.channel.send("bar!");
+    message.channel.send("Bar!");
   } else
   if (message.content.toLowerCase().startsWith(prefix + "cute")) {
     message.channel.send("Something I'm not.");
