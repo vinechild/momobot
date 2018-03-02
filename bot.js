@@ -112,6 +112,18 @@ client.on("message", (message) => {
   } else
   if (message.content === "Because you're everything I'm searching for.") {
       message.channel.send("I love you and I hate you all at the same time. Please go pat yourself on the back *and* throw yourself off a cliff.");
+  } else
+  if (message.content === "There's a switch on my forehead") {
+      message.channel.send("Is there now?");
+  } else
+  if (message.content === "Because every time I see you, I immediately get turned on.") {
+      message.channel.send("First of all, I question what makes you attracted to me to let this flirt come out of your mouth. Second of all, why? Why are you like this?");
+  } else
+  if (message.content === "Do you have a map?") {
+      message.channel.send("No.");
+  } else
+  if (message.content === "Because I'm lost in your eyes.") {
+      message.channel.send("I'll direct myself to the next bathroom to vomit, then.");
   }
 });
 
