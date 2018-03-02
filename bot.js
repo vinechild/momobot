@@ -150,6 +150,9 @@ client.on("message", (message) => {
   } else
   if (message.content.toLowerCase() === "do you want to be my final fantasy?") {
       message.channel.send("Sure! Exactly like you said- fantasy! In your dreams. Nerd.");
+  } else
+  if (message.content.toLowerCase() === "press x to pick up weapon... does that work on you too?") {
+      message.channel.send("... I'll say yes, b-but that's not because I like you or something. F-free food... You can't t-turn down free food!");
       //FLIRTS END HERE
   }
 });
